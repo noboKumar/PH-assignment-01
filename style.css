@@ -5,16 +5,19 @@
 }
 body {
   font-family: "Fira Sans", serif;
-      background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
 }
-nav, header, main{
-    margin: 0 160px;
+nav,
+header,
+main {
+  margin: 0 160px;
 }
 /* nav-bar */
 nav h1 {
   color: rgb(14, 14, 14);
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 .sign-in-btn {
   color: rgb(0, 106, 80);
@@ -23,16 +26,59 @@ nav h1 {
   padding: 15px 30px 15px 30px;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
+  margin-bottom: 40px;
   cursor: pointer;
 }
-.sign-in-btn:hover{
-    background-color: rgb(198, 228, 214);
+.sign-in-btn:hover {
+  background-color: rgb(198, 228, 214);
 }
-.sign-in-btn:active{
-    background-color: rgba(198, 228, 214, 0.653);
+.sign-in-btn:active {
+  background-color: rgba(198, 228, 214, 0.653);
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 31px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 31px;
+}
+/* header */
+
+header p {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+header h1 {
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  width: 622px;
+  height: 201px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.header-btn {
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px 17px 34px;
+  border: none;
+  cursor: pointer;
+}
+.header-btn:hover {
+  background-color: rgba(0, 106, 80, 0.766);
+}
+.header-btn:active {
+    background-color: rgba(0, 106, 80, 0.59);
+  }
+header {
+  padding: 80px 100px;
+  border-radius: 24px;
+  background-color: rgb(198, 228, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
