@@ -5,10 +5,10 @@
 }
 body {
   font-family: "Fira Sans", serif;
+      background-color: rgb(245,245,245);
 }
 nav, header, main{
     margin: 0 160px;
-    background-color: rgb(245,245,245);
 }
 /* nav-bar */
 nav h1 {
