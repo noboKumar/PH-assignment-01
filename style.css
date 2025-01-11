@@ -145,7 +145,7 @@ header {
 #vision-card-3 {
   background-color: rgb(247, 235, 207);
 }
-.learn-more-btn{
+.learn-more-btn {
   border-radius: 8px;
   padding: 11px 20px 11px 20px;
   color: rgb(255, 255, 255);
@@ -154,30 +154,59 @@ header {
   border: none;
   cursor: pointer;
 }
-#learn-more-btn-1{
+#learn-more-btn-1 {
   background-color: rgb(84, 144, 245);
 }
-#learn-more-btn-1:hover{
+#learn-more-btn-1:hover {
   background-color: rgba(84, 143, 245, 0.692);
 }
-#learn-more-btn-1:active{
+#learn-more-btn-1:active {
   background-color: rgb(84, 144, 245);
 }
-#learn-more-btn-2{
+#learn-more-btn-2 {
   background-color: rgb(9, 161, 92);
 }
-#learn-more-btn-2:hover{
+#learn-more-btn-2:hover {
   background-color: rgba(9, 161, 93, 0.605);
 }
-#learn-more-btn-2:active{
+#learn-more-btn-2:active {
   background-color: rgb(9, 161, 92);
 }
-#learn-more-btn-3{
+#learn-more-btn-3 {
   background-color: rgb(255, 194, 57);
 }
-#learn-more-btn-3:hover{
+#learn-more-btn-3:hover {
   background-color: rgba(255, 196, 57, 0.622);
 }
-#learn-more-btn-3:active{
+#learn-more-btn-3:active {
   background-color: rgb(255, 196, 57);
+}
+.quote {
+  background: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 48px 24px;
+  padding: 48px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+}
+.quote-text {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.narrator{
+  margin-top: 12px;
+}
+.narrator h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.narrator p {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
 }
