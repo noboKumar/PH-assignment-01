@@ -238,8 +238,6 @@ header {
   font-weight: 600;
 }
 .question-box-container {
-  display: flex;
-  flex-direction: column;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .question-box {
@@ -263,4 +261,66 @@ header {
   font-size: 16px;
   font-weight: 600;
   padding: 10px 14px 10px 14px;
+}
+.news-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.news-card-container h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+}
+.news > h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+}
+.news > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0 32px 0;
+}
+.news-card > img {
+  border-radius: 24px;
+}
+.news-card {
+  display: flex;
+  gap: 32px;
+  border-radius: 24px;
+  padding: 48px;
+  background: rgb(255, 255, 255);
+}
+.news-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+.news-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-para{
+  margin-bottom: 32px;
+}
+.read-more-btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 26px 13px 26px;
+  border: none;
+  cursor: pointer;
+}
+.read-more-btn:hover {
+  background: rgba(0, 106, 80, 0.653);
+}
+.read-more-btn:active {
+  background: rgb(0, 106, 80);
 }
