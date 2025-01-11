@@ -93,7 +93,7 @@ header {
   font-weight: 700;
   margin-bottom: 30px;
 }
-.pillar-card-container{
+.pillar-card-container {
   display: flex;
   gap: 24px;
 }
@@ -114,3 +114,4 @@ header {
   font-size: 16px;
   font-weight: 400;
 }
+
