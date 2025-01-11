@@ -305,7 +305,7 @@ header {
   font-size: 16px;
   font-weight: 400;
 }
-.news-para{
+.news-para {
   margin-bottom: 32px;
 }
 .read-more-btn {
@@ -323,4 +323,73 @@ header {
 }
 .read-more-btn:active {
   background: rgb(0, 106, 80);
+}
+.donate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+.donate h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 80px 0 10px 0;
+}
+.donate p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  width: 1104px;
+  height: 48px;
+}
+.taka-btn-container {
+  display: flex;
+  gap: 24px;
+}
+.tk-btn {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  cursor: pointer;
+}
+.tk-btn:hover {
+  background: rgb(198, 228, 214);
+}
+.tk-btn:active {
+  background: rgba(198, 228, 214, 0.372);
+}
+.tk-input {
+  width: 1032px;
+  height: 64px;
+  box-shadow: 0 2px 1px rgba(14, 14, 14, 0.136);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.done-now-btn {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px 17px 34px;
+  border: none;
+}
+.done-now-btn:hover {
+  background-color: rgba(0, 106, 80, 0.814);
+}
+.done-now-btn:active {
+  background-color: rgb(0, 106, 80);
 }
