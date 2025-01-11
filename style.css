@@ -189,6 +189,7 @@ header {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background-color: rgb(255, 255, 255);
+  margin: 32px 0 80px 0;
 }
 .quote-text {
   color: rgba(14, 14, 14, 0.8);
@@ -196,7 +197,7 @@ header {
   font-weight: 400;
   line-height: 24px;
 }
-.narrator{
+.narrator {
   margin-top: 12px;
 }
 .narrator h2 {
@@ -209,4 +210,36 @@ header {
   font-size: 16px;
   font-weight: 400;
   margin-top: 4px;
+}
+.option > h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.question-container {
+  border-radius: 16px;
+  padding: 32px;
+  background-color: rgb(255, 255, 255);
+}
+.question-head {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgb(198, 228, 214);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.question-head > h2 {
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 600;
+}
+.question-box-container{
+  display: flex;
+  flex-direction: column;
+}
+.question-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
 }
