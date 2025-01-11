@@ -72,8 +72,8 @@ header h1 {
   background-color: rgba(0, 106, 80, 0.766);
 }
 .header-btn:active {
-    background-color: rgba(0, 106, 80, 0.59);
-  }
+  background-color: rgba(0, 106, 80, 0.59);
+}
 header {
   padding: 80px 100px;
   border-radius: 24px;
@@ -82,3 +82,4 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
